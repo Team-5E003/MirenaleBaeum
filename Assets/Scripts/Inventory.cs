@@ -36,4 +36,16 @@ public class Inventory : MonoBehaviour
         Debug.Log("인벤토리가 꽉 찼습니다.");
         return false;
     }
+
+    public bool HasItem(ItemData itemToFind)
+    {
+        foreach (InventorySlot slot in slots)
+        {
+            if (slot.item == itemToFind)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }
