@@ -33,6 +33,7 @@ public class HorrorScreenFX : MonoBehaviour
         {
             volume.profile.TryGet(out vignette);
             volume.profile.TryGet(out colorAdj);
+            Debug.Log(vignette);
         }
 
         // 초기값은 항상 0/white
@@ -42,8 +43,6 @@ public class HorrorScreenFX : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Enemy Distance: " + GetNearestEnemyDistance());
-
         float nearest = GetNearestEnemyDistance();
 
         // ✅ 임계값 방식: dangerDistance 바깥이면 완전 0, 안으로 들어오면 그때부터 0→1
