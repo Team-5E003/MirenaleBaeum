@@ -7,4 +7,5 @@ public class ItemData : ScriptableObject
     public string description;
     public Sprite icon;
     public int maxStack = 1; // 최대 겹칠 수 있는 개수 설정
+    public GameObject prefab;
 }

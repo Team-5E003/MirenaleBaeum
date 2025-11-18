@@ -16,3 +16,4 @@ MonoBehaviour:
   description: "\uC190\uC804\uB4F1\uC774\uB2E4."
   icon: {fileID: 21300000, guid: 751aa1b6637101946b2fdbb7aa27d6ad, type: 3}
   maxStack: 1
+  prefab: {fileID: 2825058378390103409, guid: 8716a2394c84d9543b9591adc265c396, type: 3}
