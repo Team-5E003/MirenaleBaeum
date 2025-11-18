@@ -17,3 +17,4 @@ MonoBehaviour:
     \uBE68\uB77C\uC9C4\uB2E4."
   icon: {fileID: 21300000, guid: af0ae2dbf3d1efb4f82af377950704a2, type: 3}
   maxStack: 8
+  prefab: {fileID: 455114131854654538, guid: 8cc636c1b06dba14b8d5e1cae74b7315, type: 3}
