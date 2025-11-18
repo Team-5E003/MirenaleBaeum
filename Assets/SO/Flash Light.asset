@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98ce38f8e276d5f4091195936df925dd, type: 3}
   m_Name: Flash Light
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Flash Light
+  itemName: "\uC190\uC804\uB4F1"
   description: "\uC190\uC804\uB4F1\uC774\uB2E4."
   icon: {fileID: 21300000, guid: 751aa1b6637101946b2fdbb7aa27d6ad, type: 3}
   maxStack: 1
